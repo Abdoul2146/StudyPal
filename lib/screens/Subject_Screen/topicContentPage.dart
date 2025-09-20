@@ -39,10 +39,10 @@ class _TopicContentPageState extends ConsumerState<TopicContentPage> {
   List<Map<String, String>> _youtubeVideos = [];
 
   final AiTutorService _aiTutor = AiTutorService(
-    '',
+    'AIzaSyD5hxfgrnsqXho0y5AU4GXTEjNnqNh0uK8',
   );
   final String _youtubeApiKey =
-      ''; // <-- Insert your YouTube API key
+      'AIzaSyDnGXsi2zY26qXd8qrzwzQ1wwdEs4AsFlM'; // <-- Insert your YouTube API key
 
   @override
   void initState() {
