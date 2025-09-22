@@ -23,7 +23,9 @@ class _AiTutorPageState extends State<AiTutorPage> {
       'avatar': 'assets/images/avatarbot.png',
     },
   ];
-  final AiTutorService _aiTutor = AiTutorService(''); // Replace with your key
+  final AiTutorService _aiTutor = AiTutorService(
+    ' AIzaSyD5hxfgrnsqXho0y5AU4GXTEjNnqNh0uK8',
+  ); // Replace with your key
   bool _loading = false;
   bool _useContext = false;
 
